@@ -10,7 +10,8 @@ It gives you the ability to analyze any data set by using the searching/aggregat
 the visualization power of Kibana.
 
 > :information_source: The Docker images backing this stack include [Stack Features][stack-features] (formerly X-Pack)
-with [paid features][paid-features] enabled by default. The [trial license][trial-license] is valid for 30 days.
+with [paid features][paid-features] enabled by default (see [How to disable paid
+features](#how-to-disable-paid-features) to disable them). The [trial license][trial-license] is valid for 30 days.
 
 Based on the official Docker images from Elastic:
 
@@ -18,10 +19,9 @@ Based on the official Docker images from Elastic:
 * [logstash](https://github.com/elastic/logstash-docker)
 * [kibana](https://github.com/elastic/kibana-docker)
 
-> :information_source: Other branches in this project are available:
->
-> * [`searchguard`](https://github.com/deviantony/docker-elk/tree/searchguard): Search Guard support
-> * [`vagrant`](https://github.com/deviantony/docker-elk/tree/vagrant): run Docker inside Vagrant
+Other available stack variants:
+
+* [`searchguard`](https://github.com/deviantony/docker-elk/tree/searchguard): Search Guard support
 
 ## Contents
 
